@@ -27,3 +27,19 @@
   ```
 - 이렇게 작성하면 SomeClass가 Person의 object인지 확인하는 거임        
   Person의 subclass의 object는 Person의 object 처럼 사용가능
+
+### 24.5.1 Polymorphism
+- subclass를 만들고 superclass의 method를 override하고, superclass object에 subclass object를 대입하고 method를 invoke하면 subclass가 override한대로 method가 실행됨
+- Example: superclass가 Person, subclass가 각각 Student, Undergraduate, override한 method는 writeOutput()이면,
+  ```java
+  Person[] people = new Person[2];
+  people[0] = new Student(~~);
+  people[1] = new Undergraduate(~~);
+
+  for (Person p : people) {
+    p.writeOutput();
+  }
+  ```
+  각 subclass에서 override한 method대로 실행됨!!
+
+
