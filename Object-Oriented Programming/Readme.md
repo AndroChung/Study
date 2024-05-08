@@ -42,4 +42,33 @@
   ```
   각 subclass에서 override한 method대로 실행됨!!
 
+## 24.5.8
+
+### 10주차 Interface
+- abstract class와 interface 개념을 배웠다.
+- abstract class는 abstract method를 하나 이상 가지고 있는 class를 말한다.
+- interface는 method signature와 static final (constant)를 가짐. 즉, method body는 가지지 않음
+
+표현
+- abstract
+  ```java
+  public abstract class Shape {
+    int width, height;
+
+    public abstract double getArea();
+  }
+  ```
+- interface
+  ```java
+  public interface Measurable {
+    public static final int WHAT_THE = 100;
+    public void measure();
+  }
+  ```
+- abstract를 상속 받을 땐 사용법이 똑같음
+- interface를 implements 할 땐
+  ```java
+  public class Measured implements Measurable {...}
+  ```
+  + 대신 interface가 상속 받은 method를 포함해서 모든 method를 implement 해줘야함!!
 
