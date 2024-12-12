@@ -22,3 +22,12 @@ str = toUpperCase(str); // 대문자로
 ## cmath
 
 `M_PI` : 원주율
+
+## stringstream
+
+- str()
+  - stringstream 내 string 반환
+- str(string)
+  - stringstream 내 string set
+- 반복문 내 stringstream
+  - [예제코드]("https://github.com/AndroChung/Study/blob/main/C%2C%20C%2B%2B/C%2B%2B/src/stringstream.cpp")
