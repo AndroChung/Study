@@ -9,6 +9,7 @@
         "iostream": "cpp",
         "iosfwd": "cpp",
         "ios": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "ostream": "cpp"
     }
 }
