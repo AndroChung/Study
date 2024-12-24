@@ -36,3 +36,44 @@ project/
     ├── environment.yml  # Conda 환경 파일
     ├── requirements.txt # pip 요구 사항
 ```
+
+## Git
+
+### System Config
+- 시스템의  모든 사용자와 모든 저장소에 적용   
+`git config --system`
+
+### Global Config
+- 시스템의 특정 사용자에게 적용   
+`git config --global`
+
+### Local Config
+- 특정 저장소에 적용   
+`git config --local`
+
+### Usernmae & Email
+`git config user.name <name>`
+`git config user.email <email>`
+
+### CRLF
+`git config core,.autocrlf <value>`
+
+- Line Ending은 OS마다 다름
+    - Windows: CR(\r) + LF(\n)
+    - Unix or Mac: LF(\n)
+
+### Editor
+`git config core.editor <editor>`
+
+### Default Branch
+`git config init.defaultBranch <name>`
+
+### Git 전체 설정 확인
+`git config -l`
+`git config --list`
+
+### Git 설치 범위 별 전체 설정 확인
+`git config --list --show-origin`
+
+### Git 개별 설정 확인
+`git config <key>`
