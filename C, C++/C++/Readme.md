@@ -7,6 +7,12 @@
 - 부동소수점 소수점 자리수 고정 출력   
     `cout.setf(ios_base::fixed, ios_base::floatfield);`
 
+- boolalpha 
+``` cpp
+std::cout.setf(ios_base::boolalpha);
+// 출력 형태를 bool 형태로 변환
+```
+
 ## string
 
 ### 문자변환
