@@ -45,3 +45,9 @@ str = toUpperCase(str); // 대문자로
 - 반복문 내 stringstream
   - [예제코드](https://github.com/AndroChung/Study/blob/175c4886172eca40d2eabce6f8162338f430b5b3/C%2C%20C%2B%2B/C%2B%2B/src/stringstream.cpp#L1C1-L29C14)
 
+## vector
+
+### erase
+``` cpp
+vector.erase(iterator);
+```
